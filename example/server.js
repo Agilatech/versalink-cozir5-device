@@ -10,7 +10,7 @@
 
 const fs     = require('fs');
 const zetta  = require('zetta');
-const sensor = require('./cozir5-scout');
+const sensor = require('../cozir5-scout');
 const app    = require('./apps/cozir5_app');
 
 const serverPort  = 1107;  // IIOT port definied and claimed by Agilatech

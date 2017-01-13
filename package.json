@@ -2,7 +2,7 @@
   "name": "versalink-cozir5-device",
   "version": "0.8.0",
   "description": "COZIR5 CO2 gas device driver for use in the Agilatech VersaLink system",
-  "main": "cozir5.js",
+  "main": "cozir5-scout.js",
   "directories": {
     "example": "example"
   },
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/Agilatech/versalink-cozir5-device#readme",
   "dependencies": {
     "versalink-device": "*",
+    "zetta-scout": "*",
     "@agilatech/cozir5": "*"
   }
 }
