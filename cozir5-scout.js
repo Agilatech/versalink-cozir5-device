@@ -1,6 +1,5 @@
 const config = require('./config');
-
-const Scout = require('zetta-scout');
+const Scout = require(process.versalink.scout);
 const Cozir5 = require('./cozir5');
 
 module.exports = class Cozir5Scout extends Scout {
